@@ -1,0 +1,16 @@
+.Record {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Edit, .Delete {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-right: 2px;
+}

@@ -1,0 +1,31 @@
+.Form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+
+.Data-Label, .Date-Input, .Dist-Label, .Dist-Input {
+    display: block;
+}
+
+.Date-Input, .Dist-Input {
+    width: 150px;
+    height: 40px;
+    box-sizing: border-box;
+    outline: none;
+    margin-top: 5px;
+}
+
+.Date-Input, .Dist-Input, .Ok-Button {
+    border-radius: 7px;
+}
+
+.Ok-Button {
+    width: 80px;
+    height: 40px;
+    background-color: white;
+    outline: none;
+}

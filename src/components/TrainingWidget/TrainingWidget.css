@@ -1,0 +1,13 @@
+.Widget-Header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.Widget-Table {
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
